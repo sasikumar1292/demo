@@ -1,0 +1,225 @@
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+   
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .container p{
+      color: grey;
+  }
+  .container4 {
+    display: flex;
+    justify-content: center;
+    background-color: #37393d;
+    margin: 0 auto;
+  max-width: 1280px;
+    width: 95%;
+   font-size: 100%;
+   padding: 50px 50px ;
+
+  }
+  .container4 h4, li{
+    color: #8e9299;
+      
+  }
+  
+  .container3{
+    padding: 50px 50px ;
+    
+  }
+.container3 .thumbnail{
+  display: inline-block;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  padding: 5x 5px ;
+ 
+}
+footer {
+  padding-bottom: 30px;
+  padding-top: 30px;
+    padding-left: 30px;
+    
+}
+footer h4{
+  color: #404040;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+footer a{
+  color: #808080;
+  font-size: 16px;
+  text-decoration: none;
+}
+.container6 .thumbnail{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.container6 .look{
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+.container7 .thumbnail{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  margin: 40px;
+  
+}
+.container7 .venues{
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  padding-top: 50px;
+}
+.container7 p{
+  font-size: 12px;
+  color: #595959;
+
+}
+.card img{
+  width: 400px;
+  height: 286px;
+  padding: 15px 15px 15px 15px;
+  vertical-align: middle;
+  margin-right: 10px;
+  float: left;
+}
+
+.container10{
+  max-width: 900px;
+    width: 95%;
+   padding-bottom: 250px;
+    justify-content: center;
+    margin: 0 auto;
+   text-align: center;
+   
+}
+.card span{
+  font-size: 15px;
+  text-align: left;
+  height: 259px;
+  display: table-cell;
+    vertical-align: middle;
+}
+
+section{
+  background-color: #37393d;
+  color: #f6f6f6;
+  font-size: 14px;
+  padding: 15px 15px 15px 15px;
+ 
+}
+
+.box-a{
+  grid-area: showcase;
+  min-height: 400px;
+  min-width: 250px;
+  background: url(Tv1.png);
+  background-size: cover;
+  background-position: center;
+}
+.box-b{
+  grid-area: boxb;
+  min-width: 30px;
+  background: url(Tv2.png);
+}
+.box-c{
+  grid-area: boxc;
+  min-height: 100px;
+  background: url(Tv3.png);
+}
+.box-d{
+  grid-area: boxd;
+  background: url(Tv4.png);
+}
+.Eae{
+  font-size: 10px;
+  border-bottom: 1px solid gray;
+  padding: 0px 0px 5px 0px;
+  
+}
+.Eae1{
+  font-size: 12px;
+}
+.author{
+  font-family: sans-serif;
+  font-size: 12px;
+  color: gray;
+  
+}
+.more{
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+.button{
+  float: right;
+}
+.event-title{
+  text-align: center;
+}
+.table{
+  display: grid;
+  
+  
+  grid-gap: 50x;
+  grid-template-areas: 
+  "showcase showcase boxb boxb"
+  "showcase showcase boxb boxb"
+  "showcase showcase boxc boxd"
+  "showcase showcase boxc boxd"
+  ;
+  
+}
+.trend-title{
+  text-align: center;
+}
+.trnding{
+  list-style: decimal;
+}
+.past-event{
+  display: grid;
+  background-color: #37393d;
+  grid-gap: 20px;
+  grid-template-areas:
+  "a a b"
+  "a a c";
+}
+.item1{
+  grid-area: a;
+  background: url(Pe1.png);
+  min-height: 500px;
+  min-width: 430;
+  background-size: cover;
+  background-position: center;
+}
+.item2{
+  grid-area: b;
+  background: url(Pe2.png);
+
+}
+.item3{
+  grid-area: c;
+  background: url(Pe3.png);
+}
+.card-medium{
+  width: 920px;
+  
+}
